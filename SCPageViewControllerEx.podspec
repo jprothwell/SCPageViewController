@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name     = 'SCPageViewController'
-  s.version  = '2.0.13'
+  s.name     = 'SCPageViewControllerEx'
+  s.version  = '3.0.0'
   s.platform = :ios
   s.ios.deployment_target = '6.0'
 
@@ -25,12 +25,12 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/stefanceriu/SCPageViewController'
   s.author   = { 'Stefan Ceriu' => 'stefan.ceriu@yahoo.com' }
   s.social_media_url = 'https://twitter.com/stefanceriu'
-  s.source   = { :git => 'https://github.com/stefanceriu/SCPageViewController.git', :tag => "v#{s.version}" }
+  s.source   = { :git => 'https://github.com/jprothwell/SCPageViewController.git', :tag => s.version }
   s.license      = { :type => 'MIT License', :file => 'LICENSE' }
   s.source_files = 'SCPageViewController/*', 'SCPageViewController/Layouters/*'
   s.requires_arc = true
   s.frameworks = 'UIKit', 'QuartzCore', 'CoreGraphics', 'Foundation'
 
-  s.dependency 'SCScrollView', '~> 1.1'
+  s.dependency 'SCScrollViewEx', '~> 3.0.0'
 
 end
