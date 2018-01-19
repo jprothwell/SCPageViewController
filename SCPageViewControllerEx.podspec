@@ -31,6 +31,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.frameworks = 'UIKit', 'QuartzCore', 'CoreGraphics', 'Foundation'
 
-  s.dependency 'SCScrollViewEx', '~> 3.0.0'
+  s.dependency 'SCScrollViewEx', '~> 3.0'
 
 end
